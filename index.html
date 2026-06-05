@@ -1,0 +1,351 @@
+cat > /mnt/user-data/outputs/index.html << 'HTMLEOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mr. Ikraam Sadek — Lecturer Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@400;500&family=Fraunces:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<nav>
+  <div class="nav-logo">IS.</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#modules">Modules</a>
+    <a href="#experience">Experience</a>
+    <a href="#pepTalk">Pep Talk</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="shape s1"></div>
+  <div class="shape s2"></div>
+  <div class="shape s3"></div>
+  <div class="shape s4"></div>
+
+  <div class="hero-text">
+    <div class="hero-tag">✦ Belgium Campus · Lecturer ✦</div>
+    <h1 class="hero-name">Mr. <span>Ikraam</span>Sadek<br></h1>
+    <p class="hero-title">// BSc. Software Engineering · AI &amp; Dev Educator</p>
+    <p class="hero-desc"> "I've always had a passion for teaching." </p>
+    <div class="hero-btns">
+      <a href="#modules" class="btn btn-primary">Explore Modules</a>
+    <button id="say-hello-btn" class="btn btn-ghost">Say Hello</button>
+    </div>
+  </div>
+
+  <div class="avatar-wrap">
+    <div class="avatar-ring">
+      <div class="ring-deco"></div>
+      <div class="ring-deco2"></div>
+      <div class="avatar-svg-wrap">
+        <!-- Illustrated SVG Avatar -->
+        <svg width="300" height="340" viewBox="0 0 300 340" fill="none" xmlns="http://www.w3.org/2000/svg" class="avatar-svg" aria-label="Illustrated avatar of Mr. Ikraam Sadek">
+          <!-- floating labels -->
+          <g class="float-1" opacity="0.55">
+            <rect x="220" y="30" width="72" height="28" rx="4" fill="rgba(96,208,176,0.1)" stroke="rgba(96,208,176,0.4)" stroke-width="0.5"/>
+            <text x="256" y="48" text-anchor="middle" font-family="monospace" font-size="9" fill="#60d0b0">&lt;code/&gt;</text>
+          </g>
+          <g class="float-2" opacity="0.55">
+            <rect x="5" y="60" width="68" height="24" rx="4" fill="rgba(240,192,64,0.08)" stroke="rgba(240,192,64,0.4)" stroke-width="0.5"/>
+            <text x="39" y="76" text-anchor="middle" font-family="monospace" font-size="9" fill="#f0c040">git push</text>
+          </g>
+          <g class="float-3" opacity="0.45">
+            <rect x="230" y="270" width="64" height="24" rx="4" fill="rgba(192,128,240,0.08)" stroke="rgba(192,128,240,0.35)" stroke-width="0.5"/>
+            <text x="262" y="286" text-anchor="middle" font-family="monospace" font-size="9" fill="#c080f0">npm run</text>
+          </g>
+
+          <!-- shadow -->
+          <ellipse cx="150" cy="320" rx="80" ry="14" fill="rgba(96,208,176,0.12)"/>
+
+          <!-- body -->
+          <rect x="80" y="195" width="140" height="120" rx="12" fill="#000000"/>
+          <rect x="108" y="195" width="84" height="60" rx="6" fill="#555555"/>
+          <path d="M130 195 L150 225 L170 195" fill="#1e2240" stroke="#2a3060" stroke-width="1"/>
+          <path d="M150 200 L157 230 L150 255 L143 230 Z" fill="#FFFFFF"/> 
+          <circle cx="118" cy="215" r="8" fill="#60d0b0"/>
+          <text x="118" y="219" text-anchor="middle" font-family="monospace" font-size="7" fill="#F1C27D" font-weight="700">BC</text>
+
+          <!-- arms -->
+          <rect x="70" y="200" width="25" height="90" rx="14" fill="#C68642"/>
+          <ellipse cx="79" cy="298" rx="10" ry="12" fill="#C68642"/>
+          <g id="right-arm">
+          <rect x="205" y="200" width="25" height="90" rx="14" fill="#C68642"/>
+          <ellipse cx="219" cy="298" rx="13" ry="12" fill="#C68642"/>
+          </g>
+
+          <!-- neck -->
+          <rect x="128" y="170" width="44" height="35" rx="8" fill="#C68642"/>
+
+          <!-- head -->
+          <ellipse cx="150" cy="145" rx="59" ry="82" fill="#C68642"/>
+          <ellipse cx="135" cy="115" rx="28" ry="22" fill="rgba(255,255,255,0.04)"/>
+
+          <!-- hair -->
+          <!-- Base hair shape covering the top of the head -->
+           <!-- Base hair shape -->
+<path d="M96 122 Q94 95 100 83 Q110 68 130 63 Q150 58 170 63 Q190 68 200 83 Q206 95 205 122 Q198 95 190 87 Q175 78 150 76 Q125 78 110 87 Q102 95 95 122Z" fill="#000000"/>
+<!-- Curly clusters across the top -->
+<!-- Left curl cluster -->
+<path d="M144 80 Q88 70 96 65 Q104 60 106 70 Q108 62 116 63 Q124 64 120 75 Q112 68 105 72 Q99 76 95 80Z" fill="#000000"/>
+<!-- Left-center curl cluster -->
+<path d="M115 72 Q112 60 121 57 Q130 54 131 65 Q133 56 141 57 Q149 58 146 70 Q139 62 132 65 Q124 67 115 72Z" fill="#000000"/>
+<!-- Right-center curl cluster -->
+<path d="M190 70 Q139 58 148 56 Q157 54 157 65 Q160 56 168 58 Q176 60 172 72 Q165 63 158 66 Q149 68 140 70Z" fill="#000000"/>
+<!-- Right curl cluster -->
+<path d="M165 74 Q164 63 173 60 Q182 57 183 68 Q186 60 194 63 Q202 66 198 77 Q191 69 184 72 Q175 74 165 74Z" fill="#000000"/>
+<!-- Top center curl -->
+<path d="M128 66 Q127 55 136 52 Q145 49 147 60 Q149 51 158 53 Q167 55 163 66 Q156 57 148 60 Q139 63 128 66Z" fill="#000000"/>
+
+
+
+          <!-- eyes -->
+          <ellipse cx="125" cy="150" rx="9" ry="5" fill="#1a1008"/>
+          <ellipse cx="175" cy="150" rx="9" ry="5" fill="#1a1008"/>
+          <circle cx="127" cy="148" r="2" fill="white"/>
+          <circle cx="177" cy="148" r="2" fill="white"/>
+
+          <!-- smile -->
+          <path d="M130 168 Q150 182 170 168" stroke="#3a2010" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M137 170 Q150 180 163 170" fill="rgba(255,255,255,0.15)"/>
+
+          <!-- ears -->
+          <ellipse cx="86" cy="148" rx="9" ry="13" fill="#C68642"/>
+          <ellipse cx="214" cy="148" rx="9" ry="13" fill="#C68642"/>
+
+          <!-- laptop -->
+          <rect x="40" y="258" width="70" height="44" rx="5" fill="#12121f" stroke="rgba(96,208,176,0.4)" stroke-width="1"/>
+          <rect x="44" y="262" width="62" height="32" rx="3" fill="#0a0a18"/>
+          <text x="75" y="270" text-anchor="middle" font-family="monospace" font-size="5" fill="#60d0b0">const learn =</text>
+          <text x="75" y="278" text-anchor="middle" font-family="monospace" font-size="5" fill="#f0c040">  () =&gt; ✓</text>
+          <text x="75" y="286" text-anchor="middle" font-family="monospace" font-size="5" fill="#c080f0">// ship it!</text>
+          <rect x="34" y="300" width="82" height="5" rx="2" fill="#1a1a2f"/>
+
+ 
+
+          <!-- sparkles -->
+          <polygon class="spark1" points="20,180 22,185 27,185 23,188 24,193 20,190 16,193 17,188 13,185 18,185" fill="#f0c040" opacity="0.7"/>
+          <polygon class="spark2" points="268,100 269,104 273,104 270,106 271,110 268,108 265,110 266,106 263,104 267,104" fill="#f0c040" opacity="0.7"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <h2 class="section-title">The mind <em>behind the module</em></h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Mr. Ikraam Sadek is a Junior lecturer at Belgium Campus iTversity, Pretoria, where the mission and vision is to nurture every individual's excellence, "It's the way we're wired".</p>
+        <p>With a background of core development, AI systems, and project-based learning, Ikraam enforces real-world industry experience into every student and excels in practical demonstration and interactive methods. 
+          He means a lot to quite a number of students: He is highly favoured by upcoming IT specialists
+        that are rady to save our planet. His concern is that most students rely on AI instead of actually understanding the concept.</p>
+        <p>When he's not debugging student code or architecting cloud solutions, you'll find him assisting and mentoring the hackathon team, brewing exceptionally strong coffee, or learning about the latest in generative AI.</p>
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Years Teaching</div></div>
+          <div class="stat"><div class="stat-num">400+</div><div class="stat-label">Students Mentored</div></div>
+          <div class="stat"><div class="stat-num">12</div><div class="stat-label">Modules Taught</div></div>
+          <div class="stat"><div class="stat-num">30+</div><div class="stat-label">Projects Shipped</div></div>
+        </div>
+      </div>
+      <div class="fun-facts">
+        <div class="section-label" style="margin-bottom:1rem">Fun facts</div>
+        <div class="fun-fact"><strong>☕ Coffee consumed daily</strong>Approximately 3 cups, all black, all strong.</div>
+        <div class="fun-fact"><strong>🎮 First language</strong>Not Python, it was Semantics and HTML 5.</div>
+        <div class="fun-fact"><strong>🏆 Favourite student moment</strong>When a student's develops a project and its proven with no use of AI</div>
+        <div class="fun-fact"><strong>🤖 Current obsession</strong>LLM fine-tuning, AI agents, and making Claude do interesting things in class.</div>
+        <div class="fun-fact"><strong>🌍 Classroom motto</strong>"If it's not deployed, it's not done."</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODULES -->
+<section id="modules" class="modules-section">
+  <div class="reveal">
+    <div class="section-label"></div>
+    <h2 class="section-title">Modules I <em>bring to life</em></h2>
+    <div class="modules-grid">
+      <div class="module-card">
+        <div class="module-icon">⚡</div>
+        <div class="module-code">ITD301</div>
+        <div class="module-name">Web Development</div>
+        <div class="module-hint">Development of websites in HTML5 from scratch, front-end to deployment.</div>
+        <div class="module-desc">From semantic HTML to reactive frontends. Students leave able to build, style, and deploy production-ready web applications.</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon">🧠</div>
+        <div class="module-code">AIS401</div>
+        <div class="module-name">AI &amp; Machine Learning</div>
+        <div class="module-hint">The enabling of human intelligence to machines to solve problems.</div>
+
+        <div class="module-desc">Demystifying neural networks, prompt engineering, and responsible AI development. Hands-on with real datasets and real stakes.</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon">🐍</div>
+        <div class="module-code">PRG201</div>
+        <div class="module-name">Python Programming</div>
+                <div class="module-hint">Versatile programming langauge that is user friendly</div>
+        <div class="module-desc">The Swiss Army knife of languages. Data structures, OOP, automation, and the satisfying feeling of elegant code.</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon">☁️</div>
+        <div class="module-code">CLD302</div>
+        <div class="module-name">Cloud &amp; DevOps</div>
+                <div class="module-hint">Interconnected tools that form the core of software engineering.</div>
+        <div class="module-desc">AWS, GitHub Actions, Docker, and CI/CD pipelines. Building the bridges between writing code and code being useful.</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon">🔗</div>
+        <div class="module-code">DBD201</div>
+        <div class="module-name">Database Design</div>
+        <div class="module-hint">The management of data to enhance it's security and accuracy.</div>
+
+        <div class="module-desc">SQL, NoSQL, and the art of structuring data that future-you won't regret. Normalisation is love.</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon">🚀</div>
+        <div class="module-code">CAP401</div>
+        <div class="module-name">Capstone Projects</div>
+        <div class="module-hint">An assignment completed by students at the end of the degree.</div>
+
+        <div class="module-desc">The real deal. Teams, deadlines, clients, and code. Where everything learned becomes a live deployed application.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="reveal">
+    <div class="section-label"></div>
+    <h2 class="section-title">The <em>road so far</em></h2>
+    <div class="two-col">
+      <div>
+        <div class="deco-line"></div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-year">2022 – Present</div>
+            <div class="tl-role">Senior Lecturer · Software Engineering</div>
+            <div class="tl-org">Belgium Campus iTversity, Pretoria</div>
+            <div class="tl-desc">Leading modules across web dev, AI, and cloud. Curriculum designer and student mentor.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2021 – 2022</div>
+            <div class="tl-role">Full-Stack Developer</div>
+            <div class="tl-org">TechFlow Solutions, Johannesburg</div>
+            <div class="tl-desc">Built enterprise SaaS products used across Southern Africa. React, Node.js, AWS.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2020 – 2021</div>
+            <div class="tl-role">Junior Developer &amp; Tutor</div>
+            <div class="tl-org">Belgium Campus iTversity, Pretoria</div>
+            <div class="tl-desc">Research assistant and peer tutor. First taste of teaching and never looked back.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2018 – 2020</div>
+            <div class="tl-role">BSc. Computer Science</div>
+            <div class="tl-org">Belgium Campus iTversity, Pretoria</div>
+            <div class="tl-desc">Graduated with distinction. Thesis on distributed systems and peer-to-peer networks.</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="deco-line deco-line--purple"></div>
+        <div class="section-label" style="margin-bottom:1.5rem">Technical Skills</div>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <div class="skill-top"><span class="skill-name">JavaScript / TypeScript</span><span class="skill-pct">95%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:95%" data-delay="0.1"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-top"><span class="skill-name">Python &amp; AI / ML</span><span class="skill-pct">92%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:92%" data-delay="0.2"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-top"><span class="skill-name">React / Next.js</span><span class="skill-pct">90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:90%" data-delay="0.3"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-top"><span class="skill-name">AWS / Cloud Architecture</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:85%" data-delay="0.4"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-top"><span class="skill-name">Node.js / APIs</span><span class="skill-pct">88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:88%" data-delay="0.5"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-top"><span class="skill-name">Database Design (SQL / NoSQL)</span><span class="skill-pct">87%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:87%" data-delay="0.6"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-top"><span class="skill-name">Curriculum &amp; Project Design</span><span class="skill-pct">98%</span></div>
+            <div class="skill-bar"><div class="skill-fill skill-fill--alt" style="width:98%" data-delay="0.7"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section id="philosophy" class="philosophy">
+  <div class="reveal">
+    <div class="section-label"></div>
+    <h2 class="section-title">Words I <em>teach by</em></h2>
+    <div class="phil-quotes">
+      <div class="quote-card">
+        <div class="q-mark">"</div>
+        <div class="q-text">The best code review is shipping something real and watching users interact with it. Classrooms should feel like studios, not lecture halls.</div>
+        <div class="q-attr">On project-based learning</div>
+      </div>
+      <div class="quote-card">
+        <div class="q-mark">"</div>
+        <div class="q-text">AI is not replacing developers, it's replacing developers who don't use AI. My job is to make sure my students are on the right side of that sentence.</div>
+        <div class="q-attr">On AI in education</div>
+      </div>
+      <div class="quote-card">
+        <div class="q-mark">"</div>
+        <div class="q-text">The most important thing I can teach is not a framework or a language ,it's how to think systematically about problems that don't have a Stack Overflow answer yet.</div>
+        <div class="q-attr">On problem solving</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal contact-inner">
+    <div class="section-label" style="text-align:center"></div>
+    <h2 class="section-title" style="text-align:center">Let's <em>connect</em></h2>
+    <p>Whether you're a student with a question, an employer interested in graduates, or a colleague wanting to collaborate, the door (and inbox) is always open.</p>
+    <div class="contact-links">
+      <a href="sadek.i@belgiumcampus.ac.za" class="contact-link">📧 sadek.i@belgiumcampus.ac.za</a>
+      <a href="https://www.linkedin.com/login" class="contact-link">💼 LinkedIn</a>
+      <a href="https://github.com/login" class="contact-link">🐙 GitHub</a>
+      <a href="https://www.belgiumcampus.ac.za/" class="contact-link">🏫 Belgium Campus</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Built with ✦ by Belgium Campus students · Innovation &amp; Leadership Project 2026 · Deployed on GitHub Pages</p>
+  <p class="footer-copy">© Mr. Ikraam Sadek · Belgium Campus iTversity</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
